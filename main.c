@@ -5,12 +5,14 @@
 
 void main(void)
 {
-    // Loop forever
+    SHOW_BKG;
+    DISPLAY_ON;
+
+    printf("Deltacore 3\n");
+    // GAME LOOP
     while(1) {
 
-
 		// Game main loop processing goes here
-        printf("Deltacore\n");
 
 		// Done processing, yield CPU and wait for start of next frame
         vsync();
