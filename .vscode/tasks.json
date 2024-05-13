@@ -4,7 +4,7 @@
         {
             "label": "Build ROM",
             "type": "shell",
-            "windows": {"command": "lcc -o deltacore.gb main.c"}
+            "windows": {"command": "./make.bat"},
             "problemMatcher": ["$msCompile", "$gcc"],
             "group": {
                 "kind": "build",
